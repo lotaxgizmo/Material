@@ -12,7 +12,7 @@ function App() {
 {/* maxWidth="lg"  className='bg-black/95 s  h-screen !max-w-screen '  */}
       <div className="all borders bordder-red-100d  h-fit overflow-clip">
       <Container className=''>
-          {/* <Hero/> */}
+          <Hero/>
           <Whychoose/>
       </Container>
       </div>
