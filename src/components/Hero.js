@@ -12,7 +12,7 @@ function Hero() {
     {/* sx={{ width: '100%', maxWidth: 500 }} */}
          
           <div maxWidthd='xl' className='bg-green-300s flex flex-col justify-center align-middle text-white'>
-            <h1 className='text-5xl sm:text-7xl lg:text-9xl font-extrabold text-center mt-24 mb-8'>
+            <h1 className='text-6xl  xtext-9xl sm:text-8xl lg:text-9xl font-extrabold text-center mt-24 mb-8'>
               FOMOBOT
             </h1>
             <Typography variant='p' className='pb-8 subtitle' sx={{fontSize: 'h6.fontSize', textAlign: 'center'}}>
