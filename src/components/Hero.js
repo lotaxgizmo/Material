@@ -22,10 +22,13 @@ Be one of the first to snipe promising projects
             </Typography>
            <Buttons/>
 
-          </div> 
-         <a href="#" className='transition-all translate-x-10 hover:translate-x-5'>
+         <a href="#" className='transition-all translate-x-0 hover:-translate-y-5'>
          <img src={Amobile} alt="" className='my-7'/>
          </a>
+         <p variant='p' className='pb-8 pt-20 subtitle text-center text-sm font-medium' sx={{fontSize: 'h9.fontSize', textAlign: 'center'}}>
+         SINCE OUR INCEPTION, WE'VE SUCCESSFULLY CALLED X200, X300, AND EVEN X500 PLAYS, CONTINUOUSLY IMPROVING EACH DAY.
+            </p>
+          </div> 
 
 
 </>
