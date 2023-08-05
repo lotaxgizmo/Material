@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Hero from './components/Hero'
+import Container from '@mui/material/Container';
+import { ThemeProvider } from "@mui/material/styles";
+import theme from './styles/styles';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme} >
+{/* maxWidth="lg"  className='bg-black/95 s  h-screen !max-w-screen '  */}
+      <div className="all bg-black/95 h-screen">
+      <Container className=''>
+          <Hero/>
+      </Container>
+      </div>
+    </ThemeProvider>
   );
 }
 
