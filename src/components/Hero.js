@@ -13,7 +13,7 @@ function Hero() {
     <>
     {/* sx={{ width: '100%', maxWidth: 500 }} */}
          
-          <div maxWidthd='xl' className='relative backgroundhalo flex flex-col justify-center align-middle text-[#E8E8E8] lg:items-center'>
+          <div maxWidthd='xl' className='relative backgroundhalo flex flex-col justify-center align-middle text-[#E8E8E8] lg:items-center mb-28'>
             <h1 className='text-6xl  xtext-9xl sm:text-8xl lg:text-9xl font-extrabold text-center mt-32 mb-10'>
               FOMOBOT
             </h1>
@@ -33,7 +33,7 @@ Be one of the first to snipe promising projects
             </p>
 
 
-            <div className="backblur absolute -z-10  transition-fall animate-pulse !duratidon-500
+            <div className="backblur absolute -z-10  transition-fall animate-pulse1 !duratidon-500
             lg:-translate-x-56 lg:-translate-y-56 -translate-x-20 -translate-y-52
             ">
 <img src={Blur1} alt="" />
