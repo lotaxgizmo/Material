@@ -13,8 +13,8 @@ function Choosefeature() {
     <>
     <div className="divide flex flex-col lg:flex-row w-screens items-centers">
 
-        <div className="image mb-32 w-10/12 flex flex-col items-center self-center">
-            <img src={Proofgroup} alt="" className='p-4  lg:flex hidden w-8/12'/>
+        <div className="image mb-32 w-7/12 flex flex-col items-center self-center">
+            <img src={Proofgroup} alt="" className='p-4  lg:flex hidden w-10/12'/>
 
             <img src={Proof1} alt="" className='py-2 w-11/12 sm:w-8/12 lg:hidden'/>
             <img src={Proof2} alt="" className='py-2 w-11/12 sm:w-8/12 lg:hidden'/>
