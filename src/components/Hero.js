@@ -15,14 +15,17 @@ function Hero() {
             <h1 className='text-5xl sm:text-7xl lg:text-9xl font-extrabold text-center mt-24 mb-8'>
               FOMOBOT
             </h1>
-            <Typography variant='p' className='pb-8' sx={{fontSize: 'h6.fontSize', textAlign: 'center'}}>
+            <Typography variant='p' className='pb-8 subtitle' sx={{fontSize: 'h6.fontSize', textAlign: 'center'}}>
             Introducing the latest cutting edge technology to detect early buy patterns & FOMO.
+            <br/>
 Be one of the first to snipe promising projects
             </Typography>
            <Buttons/>
           </div> 
 
-          <img src={Amobile} alt="" className='my-7'/>
+         <a href="#" className='transition-all translate-x-10 hover:translate-x-5'>
+         <img src={Amobile} alt="" className='my-7'/>
+         </a>
 
 
 </>
