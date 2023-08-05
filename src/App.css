@@ -20,3 +20,10 @@ body {
 .subtitle {
 color: #979797;
 }
+
+/* Remove the default blue outline on focus for all elements */
+*:focus {
+  outline: none;
+}
+
+

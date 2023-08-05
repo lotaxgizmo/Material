@@ -9,7 +9,7 @@ function App() {
   return (
     <ThemeProvider theme={theme} >
 {/* maxWidth="lg"  className='bg-black/95 s  h-screen !max-w-screen '  */}
-      <div className="all border bordder-red-100  h-fit">
+      <div className="all borders bordder-red-100d  h-fit overflow-clip">
       <Container className=''>
           <Hero/>
       </Container>
