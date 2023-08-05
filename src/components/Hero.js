@@ -21,8 +21,8 @@ function Hero() {
 Be one of the first to snipe promising projects
             </Typography>
            <Buttons/>
-          </div> 
 
+          </div> 
          <a href="#" className='transition-all translate-x-10 hover:translate-x-5'>
          <img src={Amobile} alt="" className='my-7'/>
          </a>
