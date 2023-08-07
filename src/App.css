@@ -69,3 +69,28 @@ color: #979797;
   }
   
 }
+
+
+.stretch-element {
+  position: absolute; /* Absolute positioning */
+  left: 0; /* Stretch to the left edge */
+  right: 0; /* Stretch to the right edge */
+  tDop: 0; /* Align with the top edge of the main-div */
+  height: auto; /* Set the desired height */
+  background-color: #111111; /* Just for illustration */
+}
+
+
+.horizontal-line::before {
+  content: "";
+  display: block;
+  border-top: 1px solid rgb(116, 116, 116); /* You can adjust the color and thickness as needed */
+  margin: 10px 0; /* Optional: Add margin for spacing */
+}
+.nohorizontal-line::before {
+  content: "";
+  display: flex;
+  border: 0.5px solid rgb(116, 116, 116); /* You can adjust the color and thickness as needed */
+  margin: 10px 10px; /* Optional: Add margin for spacing */
+  height: 165px;
+}

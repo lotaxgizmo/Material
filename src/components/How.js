@@ -3,7 +3,7 @@ import Circle2 from '../assets/circle2.svg'
 import Buywith from '../assets/buywith.svg'
 import Typography from '@mui/material/Typography';
 import Choosefeature from './How/Choosefeature';
-import Blur2 from '../assets/blur2.svg'
+// import Blur2 from '../assets/blur2.svg'
 
 function How() {
     return (

@@ -2,10 +2,11 @@ import './App.css';
 import Hero from './components/Hero'
 import Whychoose from './components/Whychoose'
 import How from './components/How'
+import Start from './components/Start'
 import Container from '@mui/material/Container';
 import { ThemeProvider } from "@mui/material/styles";
 import theme from './styles/styles';
-
+import Banner from './components/Banner';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           <Hero/>
           <Whychoose/>
           <How/>
+          <Banner/>
+
+          <Start/>
       </Container>
       </div>
     </ThemeProvider>
