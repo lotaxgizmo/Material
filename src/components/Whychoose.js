@@ -13,7 +13,7 @@ function Whychoose() {
 <img src={Norug} alt="" className='w-auto animate-pulse duration-200' />
 
             <h2 className='text-4xl  lg:text-5xl font-extrabold text-center mt-4 mb-4 text-[#E8E8E8] '>
-            Why Choose FOMOBOT?
+            Why Choose FOMO<span className='moving-gradient-text'>BOT?</span>
             </h2>
 
             <Typography variant='p' className='pb-14 subtitle lg:w-[590px] text-lg' sx={{ textAlign: 'center'}}>
@@ -21,6 +21,9 @@ function Whychoose() {
 
             </Typography>
 <Choosefeature/>
+<p variant='p' className='pb-8 pt-20 subtitle text-center text-sm font-medium' sx={{fontSize: 'h9.fontSize', textAlign: 'center'}}>
+         WE DETECT UNUSUAL HIGH BUYING ACTIVITY
+            </p>
 <div className="backblur absolute -z-10  transition-fall animate-pulse1 !duratidon-500
             lg:-translate-x-56s lg:-translate-y-36 -translate-x-20q translate-y-64 w-auto
             ">

@@ -15,7 +15,7 @@ function Hero() {
          
           <div maxWidthd='xl' className='relative backgroundhalo flex flex-col justify-center align-middle text-[#E8E8E8] lg:items-center mb-28'>
             <h1 className='text-6xl  xtext-9xl sm:text-8xl lg:text-9xl font-extrabold text-center mt-32 mb-10'>
-              FOMOBOT
+              FOMO<span className='moving-gradient-text'>BOT</span>
             </h1>
             <Typography variant='p' className='pb-14 subtitle' sx={{fontSize: 'h6.fontSize', textAlign: 'center'}}>
             Introducing the latest cutting edge technology to detect early buy patterns & FOMO.

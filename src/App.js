@@ -1,6 +1,7 @@
 import './App.css';
 import Hero from './components/Hero'
 import Whychoose from './components/Whychoose'
+import How from './components/How'
 import Container from '@mui/material/Container';
 import { ThemeProvider } from "@mui/material/styles";
 import theme from './styles/styles';
@@ -14,6 +15,7 @@ function App() {
       <Container className=''>
           <Hero/>
           <Whychoose/>
+          <How/>
       </Container>
       </div>
     </ThemeProvider>

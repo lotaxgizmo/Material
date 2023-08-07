@@ -38,3 +38,34 @@ color: #979797;
   outline: none;
 }
 
+
+
+
+
+.moving-gradient-text {
+  position: relative;
+  color: transparent;
+}
+
+
+
+
+
+.moving-gradient-text {
+  
+  background-image: url("./assets/superblur2.svg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: movingGradient 9s linear infinite;
+}
+
+@keyframes movingGradient {
+  0%, 100% {
+    background-position: 40% 50%;
+  } 
+  50% {
+    background-position: 60% 50%;
+  }
+  
+}
